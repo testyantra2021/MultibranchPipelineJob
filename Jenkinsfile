@@ -10,7 +10,7 @@ pipeline {
         }
      }
      
-     stage('Test') { 
+     stage('Test the application in Staging Env') { 
         steps { 
            sh 'echo "testing application..."'
         }
